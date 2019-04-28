@@ -1,0 +1,12 @@
+.content-title {
+	margin: 0;
+
+	font-size: 72px;
+	line-height: 78px;
+	text-align: center;
+	font-family: 'Inter-Bold';
+
+	width: 800px;
+
+	margin-bottom: 48px;
+}

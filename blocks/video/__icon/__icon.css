@@ -1,0 +1,8 @@
+.video__icon {
+	
+}
+
+.video__icon:hover{
+	animation: pulse 1s ease-in-out infinite alternate running;
+	cursor: pointer;
+}

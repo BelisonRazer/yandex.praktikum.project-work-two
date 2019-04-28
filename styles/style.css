@@ -1,0 +1,49 @@
+@import url(../common/content.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/barentsburg/barentsburg.css);
+@import url(../blocks/emblem/emblem.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/comments/comments.css);
+@import url(../blocks/additional/additional.css);
+@import url(../blocks/video/video.css);
+@import url(../blocks/places/places.css);
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/header/header.css);
+@import url(../common/is-active.css);
+
+@font-face {
+    src: url(../fonts/Inter-Regular/Inter-Regular.woff2) format("woff2"),
+        url(../fonts/Inter-Regular/Inter-Regular.woff) format("woff");
+    font-family: 'Inter-Regular';
+    font-style:  normal;
+    font-weight: 400;
+}
+
+@font-face {
+    src: url(../fonts/Inter-Light-BETA/Inter-Light-BETA.woff2) format("woff2"),
+        url(../fonts/Inter-Light-BETA/Inter-Light-BETA.woff) format("woff");
+    font-family: 'Inter-Light-BETA';
+    font-style:  normal;
+    font-weight: 300;
+}
+
+@font-face {
+    src: url(../fonts/Inter-Bold/Inter-Bold.woff2) format("woff2"),
+        url(../fonts/Inter-Bold/Inter-Bold.woff) format("woff");
+    font-family: 'Inter-Bold';
+    font-style:  normal;
+    font-weight: 700;
+}
+
+.page {
+    position: relative;
+
+    margin: 0 auto;
+    padding: 30px 0 48px 0;
+
+    max-width: 1440px;
+    
+    background: #2A2C2F;
+}

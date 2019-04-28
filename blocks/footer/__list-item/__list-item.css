@@ -1,0 +1,9 @@
+.footer__list-item {
+	display: inline-block;
+
+	font-size: 0;
+}
+
+.footer__list-item:not(:last-child) {
+	margin-right: 18px;
+}

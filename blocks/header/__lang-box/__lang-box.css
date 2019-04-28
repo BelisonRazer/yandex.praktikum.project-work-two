@@ -1,0 +1,7 @@
+.header__lang-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 12px;
+}

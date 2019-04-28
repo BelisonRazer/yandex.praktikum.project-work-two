@@ -1,0 +1,21 @@
+@import url(../places/__paragraph/__paragraph.css);
+@import url(../places/__paragraph-box/__paragraph-box.css);
+@import url(../places/__url-heading/__url-heading.css);
+@import url(../places/__url/__url.css);
+@import url(../places/__image/__image.css);
+@import url(../places/__website-box/__website-box.css);
+@import url(../places/__title/__title.css);
+@import url(../places/__place/__place.css);
+
+.places {
+	width: 984px;
+	
+	font-family: Inter-Light-BETA;
+	color: #ffffff;
+
+	margin-bottom: 102px;
+}
+
+.places a:hover {
+	opacity: 0.7;
+}

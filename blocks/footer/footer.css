@@ -1,0 +1,20 @@
+@import url(../footer/__copyright/__copyright.css);
+@import url(../footer/__link/__link.css);
+@import url(../footer/__list-item/__list-item.css);
+@import url(../footer/__list/__list.css);
+@import url(../footer/__nav/__nav.css);
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	width: 1184px;
+
+	font-family: Inter-Light-BETA;
+	color: #ffffff;
+}
+
+.footer a:hover {
+	opacity: 0.7;
+}

@@ -1,0 +1,10 @@
+.places__title {
+	margin: 0;
+	
+	font-family: 'Inter-Bold';
+	font-size: 72px;
+	line-height: 65px;
+
+	grid-column: 1;
+	grid-row: 1;
+}
