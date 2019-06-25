@@ -1,17 +1,18 @@
+@import url(../common/main-content.css);
 @import url(../common/content.css);
-@import url(../common/is-active.css);
-@import url(../blocks/header/header.css);
-@import url(../blocks/lead/lead.css);
-@import url(../blocks/intro/intro.css);
-@import url(../blocks/photo-grid/photo-grid.css);
-@import url(../blocks/places/places.css);
-@import url(../blocks/video/video.css);
-@import url(../blocks/additional/additional.css);
-@import url(../blocks/comments/comments.css);
-@import url(../blocks/cover/cover.css);
-@import url(../blocks/emblem/emblem.css);
-@import url(../blocks/barentsburg/barentsburg.css);
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/barentsburg/barentsburg.css);
+@import url(../blocks/emblem/emblem.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/comments/comments.css);
+@import url(../blocks/additional/additional.css);
+@import url(../blocks/video/video.css);
+@import url(../blocks/places/places.css);
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/header/header.css);
+@import url(../common/is-active.css);
 
 @font-face {
     src: url(../fonts/Inter-Regular/Inter-Regular.woff2) format("woff2"),
@@ -37,6 +38,10 @@
     font-weight: 700;
 }
 
+body {
+	background: #2A2C2F;
+}
+
 .page {
     position: relative;
 
@@ -45,5 +50,35 @@
 
     max-width: 1440px;
     
-    background: #2A2C2F;
+	/* background: #2A2C2F; */
+	
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+
+	text-rendering: optimizeLegibility;
 }
+
+@media screen and (max-width: 1281px) {
+	.page {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 769px) {
+	.page {
+		width: 100%;
+
+		padding-top: 16px;
+		padding-bottom: 24px;
+	}
+}
+
+/* font-size: 1.688rem; 27 */
+/* line-height: 1.813rem; 29 */
+
+/* font-size: 1.5rem; 24 */
+/* line-height: 1.625rem; 26 */

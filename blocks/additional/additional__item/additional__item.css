@@ -1,0 +1,41 @@
+.additional__item {
+	position: relative;
+
+	height: 330px;
+}
+
+@media screen and (max-width: 1281px) {
+
+	.additional__item:not(:last-child) {
+		margin-right: 16px;
+	}
+
+	.additional__item {
+		max-height: 330px;
+	}
+}
+
+@media screen and (max-width: 1100px) {
+
+	.additional__item:not(:last-child) {
+		margin-right: 10px;
+	}
+
+	.additional__item {
+		min-width: 240px;
+		max-height: 280px;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+
+	.additional__item:not(:last-child) {
+		margin-right: 0;
+	}
+
+	.additional__item {
+		min-width: 240px;
+		max-width: 284px;
+		max-height: 330px;
+	}
+}

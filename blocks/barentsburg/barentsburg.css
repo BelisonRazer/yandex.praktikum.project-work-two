@@ -1,14 +1,14 @@
-@import url(../barentsburg/__link/__link.css);
-@import url(../barentsburg/__url-heading/__url-heading.css);
-@import url(../barentsburg/__website-box/__website-box.css);
-@import url(../barentsburg/__text/__text.css);
-@import url(../barentsburg/__map/__map.css);
-@import url(../barentsburg/__coord/__coord.css);
-@import url(../barentsburg/__title/__title.css);
+@import url(./barentsburg__link/barentsburg__link.css);
+@import url(./barentsburg__url-heading/barentsburg__url-heading.css);
+@import url(./barentsburg__website-box/barentsburg__website-box.css);
+@import url(./barentsburg__text/barentsburg__text.css);
+@import url(./barentsburg__map/barentsburg__map.css);
+@import url(./barentsburg__coord/barentsburg__coord.css);
+@import url(./barentsburg__title/barentsburg__title.css);
 
 
 .barentsburg {
-	width: 1184px;
+	max-width: 1184px;
 
 	font-family: Inter-Light-BETA;
 	color: #ffffff;
@@ -18,4 +18,44 @@
 
 .barentsburg a:hover {
 	opacity: 0.7;
+}
+
+@media screen and (max-width: 1281px) {
+	
+	.barentsburg {
+		width: calc(100% - 96px);
+	}
+}
+
+@media screen and (max-width: 1025px) {
+	
+	.barentsburg {
+		width: calc(100% - 48px);
+	}
+}
+
+@media screen and (max-width: 1025px) {
+	
+	.barentsburg {
+		margin-bottom: 100px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	
+	.barentsburg {
+		margin-bottom: 48px;
+
+		width: 100%;
+
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 376px) {
+	
+	.barentsburg {
+		margin-bottom: 64px;
+	}
 }

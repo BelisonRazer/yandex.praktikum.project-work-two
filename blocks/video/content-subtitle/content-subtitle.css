@@ -2,10 +2,44 @@
 	margin: 0;
 
 	font-size: 24px;
+	font-weight: normal;
 	line-height: 34px;
 	text-align: center;
 
 	width: 640px;
 
 	margin-bottom: 72px;
+}
+
+@media screen and (max-width: 1025px) {
+
+	.content-subtitle {
+		width: 70%;
+
+		line-height: 2.125rem;
+		font-size: 1.5rem;
+	}
+
+	.additional .content-subtitle {
+		margin-bottom: 64px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+
+	.video .content-subtitle {
+		margin-bottom: 56px;
+	}
+
+	.additional .content-subtitle {
+		margin-bottom: 56px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	
+	.content-subtitle {
+		font-size: 1rem;
+		line-height: 1.45rem;
+	}
 }

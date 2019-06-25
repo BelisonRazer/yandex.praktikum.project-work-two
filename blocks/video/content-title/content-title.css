@@ -10,3 +10,77 @@
 
 	margin-bottom: 48px;
 }
+
+@media screen and (max-width: 1281px) {
+
+	.content-title {
+		width: 100%;
+
+		line-height: 4.875rem;
+		font-size: 4.5rem;
+	}
+
+	.video .content-title {
+		width: 85%;
+	}
+
+	.comments .content-title {
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 1150px) {
+
+	.comments .content-title {
+		width: 85%;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+
+	.content-title {
+		line-height: 2.9rem;
+		font-size: 2.650rem;
+	}
+
+	.video .content-title {
+		max-width: 415px;
+
+		margin-bottom: 24px;
+	}
+	
+	.additional .content-title {
+		margin-bottom: 24px;
+	}
+
+	.comments .content-title {
+		max-width: 54%;
+
+		margin-bottom: 24px;
+	}
+}
+
+@media screen and (max-width: 851px) {
+
+	.comments .content-title {
+		max-width: 66%;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	
+	.content-title {
+		font-size: 2rem;
+		line-height: 2.2rem;
+	}
+
+	.video .content-title {
+		width: 100%;
+		max-width: 380px;
+	}
+
+	.comments .content-title {
+		max-width: 75%;
+	}
+}
+

@@ -4,3 +4,40 @@
 
 	z-index: 40;
 }
+
+@media screen and (max-width: 1281px) {
+	
+	.Image {
+		width: 100%;
+		/* height: fit-content; */
+		height: inherit;
+	}
+}
+
+@media screen and (max-width: 1025px) {
+	
+	.cover-bg .Image {
+		min-height: 500px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	
+	.cover-bg .Image {
+		min-height: 272px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+
+	.video__item .Image{
+		min-height: 192px;
+	}
+}
+
+@media screen and (max-width: 376px) {
+	
+	.cover-bg .Image {
+		min-height: 216px;
+	}
+}

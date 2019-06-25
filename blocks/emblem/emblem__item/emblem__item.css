@@ -1,0 +1,17 @@
+.emblem__item {
+	text-align: center;
+}
+
+@media screen and (max-width: 1281px) {
+
+	.emblem__item {
+		margin-right: 12px;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+
+	.emblem__item {
+		margin: 0;
+	}
+}

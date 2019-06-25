@@ -1,0 +1,11 @@
+.emblem__image {
+	margin-bottom: 35px;
+	height: fit-content;
+}
+
+@media screen and (max-width: 1100px) {
+	
+	.emblem__image {
+		/* width: 100%; */
+	}
+}

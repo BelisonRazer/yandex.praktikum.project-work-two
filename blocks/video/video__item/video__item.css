@@ -1,0 +1,38 @@
+.video__item {
+	position: relative;
+
+	max-height: 323px;
+}
+
+.video__item:first-child {
+	margin-right: 16px;
+}
+
+@media screen and (max-width: 1281px) {
+
+	.video__item {
+		max-height: 288px;
+	}
+}
+
+@media screen and (max-width: 1281px) {
+
+	.video__item {
+		max-height: 288px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	
+	.video__item:first-child {
+		margin-right: 0px;
+		margin-bottom: 8px;
+	}
+
+	.video__item {
+		min-width: 288px;
+		max-width: 353px;
+		max-height: 100%;
+	}
+}
+

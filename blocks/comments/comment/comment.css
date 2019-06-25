@@ -1,3 +1,33 @@
 .comment {
 	width: 382px;
 }
+
+@media screen and (max-width: 1281px) {
+	
+	.comment:not(:last-child) {
+		margin-right: 16px;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+
+	.comment:not(:last-child) {
+		margin-right: 0;
+		margin-bottom: 48px;
+	}
+
+	.comment {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+    	text-align: left;
+	}
+}
+
+@media screen and (max-width: 700px) {
+
+	.comment {
+		width: 100%;
+	}
+}

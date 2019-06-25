@@ -1,12 +1,14 @@
 @import url(./header__logo/header__logo.css);
 @import url(./header__lang-box/header__lang-box.css);
 @import url(./header__lang/header__lang.css);
+@import url(./header__logo/header__logo_standart/header__logo_standart.css);
+@import url(./header__logo/header__logo_min/header__logo_min.css);
 
 .header {
     display: flex;
     justify-content: space-between;
 
-    width: 1184px;
+    max-width: 1184px;
 
     font-family: Inter-Light-BETA;
 
@@ -15,4 +17,34 @@
 
 .header a:hover {
 	opacity: 0.7;
+}
+
+@media screen and (max-width: 1281px) {
+	
+	.header {
+		width: calc(100% - 96px);
+	}
+}
+
+@media screen and (max-width: 1025px) {
+	
+	.header {
+		width: calc(100% - 48px);
+	}
+}
+
+@media screen and (max-width: 767px) {
+	
+	.header {
+		padding-bottom: 64px;
+
+		width: calc(100% - 32px);
+	}
+}
+
+@media screen and (max-width: 376px) {
+	
+	.header {
+		padding-bottom: 48px;
+	}
 }

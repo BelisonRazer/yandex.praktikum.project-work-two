@@ -1,0 +1,14 @@
+.places__paragraph-box {
+	grid-column: 2;
+	grid-row: 2;
+}
+
+@media screen and (max-width: 700px) {
+	
+	.places__paragraph-box {
+		order: 4;
+
+		margin-left: 16px;
+		margin-right: 16px;
+	}
+}

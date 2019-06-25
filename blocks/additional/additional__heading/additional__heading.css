@@ -1,0 +1,38 @@
+.additional__heading {
+	position: absolute;
+
+	left: 18px;
+	right: 18px;
+	top: 30px;
+
+	margin: 0;
+
+	font-size: 27px;
+	line-height: 29px;
+	font-family: 'Inter-Bold';
+
+	z-index: 84;
+
+	pointer-events: none;
+}
+
+@media screen and (max-width: 1025px) {
+	.additional__heading {
+		font-size: 1.688rem;
+		line-height: 1.813rem;
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	.additional__heading {
+		font-size: 1.5rem;
+		line-height: 1.625rem;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.additional__heading {
+		font-size: 1.5rem;
+		line-height: 1.625rem;
+	}
+}

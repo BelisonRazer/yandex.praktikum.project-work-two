@@ -1,0 +1,19 @@
+.emblem__city {
+	font-size: 24px;
+	line-height: 26px;
+	text-align: center;
+
+	color: #CCCCCC;
+
+	margin: 0;
+
+	/* width: 208px; */
+	max-width: 192px;
+}
+
+@media screen and (max-width: 1023px) {
+	
+	.emblem__city {
+		max-width: 100%;
+	}
+}
